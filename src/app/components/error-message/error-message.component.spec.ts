@@ -15,7 +15,7 @@ describe('ErrorMessageComponent', () => {
 
     fixture = TestBed.createComponent(ErrorMessageComponent);
     component = fixture.componentInstance;
-    fixture.detectChanges(); 
+    fixture.detectChanges(); // initialize the component properly
   }));
 
   it('should show error message for required error', () => {

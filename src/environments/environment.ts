@@ -3,8 +3,23 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
+<<<<<<< HEAD
+  firebaseConfig :  {
+    apiKey: "AIzaSyDSE7w_8PxQlnVQ9RjpGjI-KhRWcpwp0hM",
+    authDomain: "recilica-app.firebaseapp.com",
+    projectId: "recilica-app",
+    storageBucket: "recilica-app.appspot.com",
+    messagingSenderId: "372158571349",
+    appId: "1:372158571349:web:c2c06ff26b6d06177a85dc"
+=======
+  firebaseConfig: {
+    //secretofc
+>>>>>>> ddc07062938a302ac10c99f3974fd8533a1b55c4
+  },
   production: false
 };
+
+
 
 /*
  * For easier debugging in development mode, you can import the following file

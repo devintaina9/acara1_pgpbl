@@ -3,9 +3,8 @@
     <ion-menu contentId="main-content" type="overlay">
       <ion-content>
         <ion-list id="inbox-list">
-          <ion-list-header color="success">Recilica App</ion-list-header>
-          <ion-note class ="note">Devinta Cahaya Putri</ion-note>
-
+          <ion-list-header>Recilica App</ion-list-header>
+          <ion-note class="id">Devinta Cahaya Putri</ion-note>
           <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages; let i = index">
             <ion-item routerDirection="root" [routerLink]="[p.url]" lines="none" detail="false" routerLinkActive="selected">
               <ion-icon slot="start" [ios]="p.icon + '-outline'" [md]="p.icon + '-sharp'" ></ion-icon>
@@ -17,6 +16,7 @@
     </ion-menu>
     <ion-router-outlet id="main-content"></ion-router-outlet>
   </ion-split-pane>
+  <app-loading></app-loading>
 </ion-app>
 
 
