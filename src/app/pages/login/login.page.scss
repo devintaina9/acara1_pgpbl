@@ -1,26 +1,25 @@
 ion-button[color="dark"]{
-    text-transform: initial;
+  text-transform: initial;
 }
 
 ion-content {
-  --background: var(--ion-color-success); // set background to primary color
+--background: var(--ion-color-success); // set background to primary color
 }
 
 .center-text {
-    text-align: center;
-    display: block;
-    margin-top: px;
+  text-align: center;
+  display: block;
+  margin-top: px;
 
-  }
+}
 
-  .title {
-    font-weight: bold;
-    font-size: 40px;
-  }
+.title {
+  font-weight: bold;
+  font-size: 40px;
+}
 
-  .register {
-    font-size: 15px;
-  }
-  
-  
-  
+.register {
+  font-size: 15px;
+}
+
+

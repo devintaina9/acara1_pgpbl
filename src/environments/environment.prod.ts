@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 export const environment = {
-  firebaseConfig : {
+  firebaseConfig :  {
     apiKey: "AIzaSyDSE7w_8PxQlnVQ9RjpGjI-KhRWcpwp0hM",
     authDomain: "recilica-app.firebaseapp.com",
     projectId: "recilica-app",
@@ -10,11 +9,3 @@ export const environment = {
   },
   production: false
 };
-=======
-  export const environment = {
-    firebaseConfig: {
-     //yep this too aint public
-    },
-  production: false 
-};
->>>>>>> ddc07062938a302ac10c99f3974fd8533a1b55c4
